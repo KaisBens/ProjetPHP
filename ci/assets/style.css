@@ -1,0 +1,81 @@
+body {
+    background-color: #000000; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: gray;
+}
+
+.has-navbar-fixed-top {
+    padding-top: 4rem;
+}
+
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    background: #d40051; 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+
+button[type="submit"]:hover {
+    background-color: #D35400; 
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: #ffffff; 
+}
+
+body {
+    background-image:url("bakgrnd.png");
+    background-repeat: repeat;
+    color: white; /* Texte des artistes en blanc */
+}
+
+/* Styling des noms d'artistes */
+.list a {
+    background-color: #d40051; /* Carré rose en arrière-plan */
+    color: white; /* Texte des artistes en blanc */
+    padding: 5px 10px; /* Ajoutez un peu d'espace autour du texte */
+    border-radius: 5px; /* Ajoutez des coins arrondis */
+    display: inline-block; /* Assurez-vous que chaque nom d'artiste est sur une ligne */
+    margin-bottom: 5px; /* Ajoutez un peu d'espace entre chaque nom d'artiste */
+    text-decoration: none; /* Supprimer le soulignement des liens */
+}
+
+.list a:hover {
+    background-color:#d40051; /* Couleur rose plus foncée au survol */
+
+background-color: hotpink; /* Couleur rose plus foncée au survol */
+}
+
+button[type="submit"] {
+    background-color: rgb(255, 61, 94); /* Fond rose */
+    color: white; /* Texte en blanc */
+    border: none; /* Supprime la bordure */
+    padding: 10px 20px; /* Ajoute un peu d'espace autour du texte */
+    border-radius: 5px; /* Ajoute des coins arrondis */
+    cursor: pointer; /* Change le curseur au survol */
+}
+
+button[type="submit"]:hover {
+    background-color: rgba(0, 71, 10, 0.26); /* Fond rose plus foncé au survol */
+}
+
+form {
+    text-align: center; /* Centrer horizontalement */
+    margin-top: 15vh; /* Déplacer vers le haut de 20% de la hauteur de la fenêtre */
+}
